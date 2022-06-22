@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-electricfilm-dev-141803-authRole",
+      "UnauthRoleArn": "arn:aws:iam::666442586264:role/amplify-electricfilm-dev-141803-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::666442586264:role/amplify-electricfilm-dev-141803-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-electricfilm-dev-141803-deployment",
+      "UnauthRoleName": "amplify-electricfilm-dev-141803-unauthRole",
+      "StackName": "amplify-electricfilm-dev-141803",
+      "StackId": "arn:aws:cloudformation:eu-central-1:666442586264:stack/amplify-electricfilm-dev-141803/083e6b90-f093-11ec-bc78-0aba3f41136c",
+      "AmplifyAppId": "d25jqpoivkk0so"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d25jqpoivkk0so",
+          "type": "cicd"
+        }
+      }
+    }
+  }
+}
