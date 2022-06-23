@@ -5,15 +5,10 @@ import MuiAccordion from '@mui/material/Accordion';
 import MuiAccordionSummary from '@mui/material/AccordionSummary';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import Menu from '../components/Menu';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
-import Image from 'next/image';
-import mailPic from '../public/mail.jpg'
-import mintPic from '../public/mint.jpg'
-import wordPic from '../public/word.jpg'
-import { Stack } from '@mui/material';
+import Link from '@mui/material/Link';
 
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />))(({ theme }) => ({
@@ -74,11 +69,11 @@ const POAP = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                o	YOU are electric.film<br />
-                o	electric.film is a decentralized community open to everyone who is interested in the future around web3 and the film production of tomorrow.<br />
-                o	early contributors on Discord <br />
-                o	everyone working on the ELCTRIC CHILD movie<br />
-                o	The core members consist of a mixed group, slightly smaller than a dozen<br />
+                YOU are electric.film<br />
+                electric.film is a decentralized community open to everyone who is interested in the future around web3 and the film production of tomorrow.<br />
+                early contributors on Discord <br />
+                everyone working on the ELCTRIC CHILD movie<br />
+                The core members consist of a mixed group, slightly smaller than a dozen<br />
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -109,7 +104,7 @@ const POAP = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-              Please visit: https://help.poap.xyz/en/articles/5790609-how-do-i-mint-a-poap-i-ve-claimed-reserved-with-an-email-address
+              Please visit: <Link href='https://help.poap.xyz/en/articles/5790609-how-do-i-mint-a-poap-i-ve-claimed-reserved-with-an-email-address'>POAP documentation</Link>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -119,10 +114,9 @@ const POAP = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-              o	At the point of writing, we are still in the concept phase and prepare the Pre-Launch of electric.film. 
+              At the point of writing, we are still in the concept phase and prepare the Pre-Launch of electric.film. 
               In parallel the film shooting of ELECTRIC CHILD is taking place. <br/>
-            o	Stay tuned, there are good news coming soon. 
-
+              Stay tuned, there are good news coming soon. 
               </Typography>
             </AccordionDetails>
           </Accordion>
