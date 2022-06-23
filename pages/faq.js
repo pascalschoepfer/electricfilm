@@ -47,7 +47,7 @@ const POAP = () => {
             <AccordionDetails>
               <Typography>
                 A special kind of NFT to everyone who participated in a special event. These NFTs are called POAPs.
-                POAPs are digital mementos, minted in celebration of lifes remarkable moments.
+                POAPs are digital mementos, minted in celebration of lifes remarkable moments.<br/><br/>
                 Each POAP is a gift from an issuer (electric.film) to collectors (YOU), in celebration of a special shared memory.
                 By minting these memories to the blockchain, collectors build a rich tapestry of tokenized experiences which unlock a world of possibilities.
               </Typography>
@@ -59,7 +59,7 @@ const POAP = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                electric.film is a transformation project into the web3 space that runs in parallel with the ELECTRIC CHILD film production
+                Electric.film is a transformation project into the web3 space that runs in parallel with the Electric Child film production.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -69,11 +69,11 @@ const POAP = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                YOU are electric.film<br />
-                electric.film is a decentralized community open to everyone who is interested in the future around web3 and the film production of tomorrow.<br />
-                early contributors on Discord <br />
-                everyone working on the ELCTRIC CHILD movie<br />
-                The core members consist of a mixed group, slightly smaller than a dozen<br />
+                <b>YOU</b> are electric.film!<br/><br/>
+                Electric.film is a decentralized community open to everyone who is interested in the future around web3 and the film production of tomorrow.<br/><br/>
+                Electric.film is the early contributors on Discord.<br/><br/>
+                Electric.film is everyone working on the Electric Child movie.<br/><br/>
+                The core members consist of a mixed group, slightly smaller than a dozen.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -89,12 +89,12 @@ const POAP = () => {
           </Accordion>
           <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
             <AccordionSummary aria-controls="panel5d-content" id="panel5d-header">
-              <Typography variant='h6'>How to set up my own Wallet and generate an Ethereum Address?</Typography>
+              <Typography variant='h6'>How can I set up my own wallet and generate an Ethereum address?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-              Wed recommend using Metamask or MyEtherWallet as your first Ethereum wallet. 
-              Please never share your private key with anyone. Not your Keys, not Your Coins or POAPs!
+              We recommend using <Link href='https://metamask.io/' target="_blank">Metamask</Link> or <Link href='https://www.myetherwallet.com/' target="_blank">MyEtherWallet</Link> as your first Ethereum wallet. 
+              Never share your private key with anyone. Not your keys, not your coins or POAPs!
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -104,7 +104,7 @@ const POAP = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-              Please visit: <Link href='https://help.poap.xyz/en/articles/5790609-how-do-i-mint-a-poap-i-ve-claimed-reserved-with-an-email-address'>POAP documentation</Link>
+              Please visit the excellent <Link href='https://help.poap.xyz/en/articles/5790609-how-do-i-mint-a-poap-i-ve-claimed-reserved-with-an-email-address' target="_blank">POAP documentation</Link> for this.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -114,9 +114,9 @@ const POAP = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-              At the point of writing, we are still in the concept phase and prepare the Pre-Launch of electric.film. 
-              In parallel the film shooting of ELECTRIC CHILD is taking place. <br/>
-              Stay tuned, there are good news coming soon. 
+              At the point of writing, we are still in the concept phase and prepare the pre-launch of electric.film. <br/><br/>
+              Simultaneously the film shooting of Electric Child is taking place. <br/><br/>
+              Stay tuned for whats to come. 
               </Typography>
             </AccordionDetails>
           </Accordion>
