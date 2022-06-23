@@ -47,7 +47,7 @@ const POAP = () => {
             <AccordionDetails>
               <Typography>
                 A special kind of NFT to everyone who participated in a special event. These NFTs are called POAPs.
-                POAPs are digital mementos, minted in celebration of life's remarkable moments.
+                POAPs are digital mementos, minted in celebration of lifes remarkable moments.
                 Each POAP is a gift from an issuer (electric.film) to collectors (YOU), in celebration of a special shared memory.
                 By minting these memories to the blockchain, collectors build a rich tapestry of tokenized experiences which unlock a world of possibilities.
               </Typography>
@@ -93,14 +93,14 @@ const POAP = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-              We'd recommend using Metamask or MyEtherWallet as your first Ethereum wallet. 
+              Wed recommend using Metamask or MyEtherWallet as your first Ethereum wallet. 
               Please never share your private key with anyone. Not your Keys, not Your Coins or POAPs!
               </Typography>
             </AccordionDetails>
           </Accordion>
           <Accordion expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
             <AccordionSummary aria-controls="panel6d-content" id="panel6d-header">
-              <Typography variant='h6'>How Do I Mint a POAP I've Claimed/Reserved with an Email Address?</Typography>
+              <Typography variant='h6'>How Do I Mint a POAP Ive Claimed/Reserved with an Email Address?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
