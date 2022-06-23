@@ -13,7 +13,7 @@ const Menu = () => {
     return (
       <Box sx={{ width: '100%' }}>
         <Tabs
-          value={value} onChange={handleChange} textColor="secondary" indicatorColor="secondary" centered
+          value={value} onChange={handleChange} textColor="primary" indicatorColor="primary" centered
         >
           <Tab value="/" label="Home"  component={NextLinkComposed} to={{pathname: '/'}}/>
           <Tab value="/poap" label="POAP"  component={NextLinkComposed} to={{pathname: '/poap'}}/>
