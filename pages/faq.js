@@ -71,7 +71,7 @@ const POAP = () => {
               <Typography>
               A POAP (pronounced poh-ap, not pope / short for Proof Of Attendance Protocol) is a special kind of NFT, accessible to everyone who participated in a certain event.
               These NFTs are called POAPs. <br/><br/>
-              POAPs are digital mementos, minted in celebration of life's remarkable moments.
+              POAPs are digital mementos, minted in celebration of lifes remarkable moments.
               Each POAP is a gift from an issuer (electric.film) to collectors (YOU), in celebration of a special shared memory.<br/><br/>
               By minting these memories to the blockchain, collectors can build a rich tapestry of tokenized experiences, which unlock a world of possibilities.
               </Typography>
@@ -118,7 +118,7 @@ const POAP = () => {
               <Typography>
               Currently, we are still in the concept-phase and are preparing the pre-launch of electric.film. <br/><br/>
               Simultaneously, the Electric Child movie is being shot. <br/><br/>
-              Stay tuned for what's to come! :-)
+              Stay tuned for whats to come! :-)
               </Typography>
             </AccordionDetails>
           </Accordion>
