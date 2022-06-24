@@ -54,13 +54,13 @@ const POAP = () => {
               <Typography>
                 Download the POAP app for you mobile device:
               </Typography>
-              <Stack spacing={2} direction="row" sx={{ m: 2 }}>
+              <Stack spacing={1} direction="row" sx={{ my: 1 }}>
                 <Button href='https://poap.xyz/ios' variant="outlined" target="_blank"
                   sx={{
                     borderWidth: 3, borderRadius: 3, textTransform: 'none', "&:hover": {
                       boxShadow: '0 1px 10px 0 #15f4ee inset, 0 1px 10px 0 #15f4ee, 0 1px 10px 0 #15f4ee inset, 0 1px 10px 0 #15f4ee'
                     },
-                    width: { xs: '40vw', sm: '25vw', md: '16vw', lg: '13vw', xl: '9vw' }, height: { xs: '7vh', md: '6vh' }
+                    width: { xs: '45vw', sm: '25vw', md: '16vw', lg: '13vw', xl: '9vw' }, height: { xs: '7vh', md: '6vh' }
                   }}>
                   <Typography>Apple iOS</Typography>
                   <SvgIcon sx={{ ml: 1, mb: 1 }}>
@@ -71,7 +71,7 @@ const POAP = () => {
                     borderWidth: 3, borderRadius: 3, textTransform: 'none', "&:hover": {
                       boxShadow: '0 1px 10px 0 #15f4ee inset, 0 1px 10px 0 #15f4ee, 0 1px 10px 0 #15f4ee inset, 0 1px 10px 0 #15f4ee'
                     },
-                    width: { xs: '40vw', sm: '25vw', md: '16vw', lg: '13vw', xl: '9vw' }, height: { xs: '7vh', md: '6vh' }
+                    width: { xs: '45vw', sm: '25vw', md: '16vw', lg: '13vw', xl: '9vw' }, height: { xs: '7vh', md: '6vh' }
                   }}>
                   <Typography>Android</Typography>
                   <SvgIcon sx={{ ml: 1 }}>
