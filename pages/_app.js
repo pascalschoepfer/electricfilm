@@ -12,7 +12,7 @@ const darkTheme = createTheme({
   palette: {
     mode: 'dark',
     primary: {
-      main: '#20ddd8'
+      main: '#15f4ee'
     }
   },
 });
