@@ -88,9 +88,9 @@ const POAP = () => {
             <AccordionDetails>
               <Typography>
                 After downloading and starting the POAP app, connect the app to your email address.<br />
-                <i>(Pro-Tip: If you already have an Ethereum crypto wallet, you can use its public address or ENS domain to log in!)</i>
+                <i>(Pro-Tip: If you already have an Ethereum crypto wallet, you can use its public address or ENS domain to connect!)</i>
               </Typography>
-              <Box sx={{ mt: 2, maxWidth: .7 }}>
+              <Box sx={{ m:2}}>
                 <Image src={mailPic} />
               </Box>
             </AccordionDetails>
@@ -102,7 +102,7 @@ const POAP = () => {
             <AccordionDetails>
               <Typography>
                 Now you are ready to claim <b>your personal POAP</b>. Use the secret word, which was handed out to you by the electric.film team.<br /><br />
-                When logged in into the POAP app, click on <i><b>Mint</b></i>, then click <i><b>Secret Word</b></i>, fill it and submit with the <i><b>Mint</b></i> button.
+                When connected to the POAP app, click on <i><b>Mint</b></i>, then click <i><b>Secret Word</b></i>, fill it and submit with the <i><b>Mint</b></i> button.
               </Typography>
               <Box sx={{ mt: 2, maxWidth: .9 }}>
                 <Image src={mintPic} />
