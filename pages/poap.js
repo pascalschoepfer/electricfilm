@@ -52,7 +52,7 @@ const POAP = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Download the POAP app for you mobile device:
+                Download the POAP app for your mobile device:
               </Typography>
               <Stack spacing={1} direction="row" sx={{ my: 1 }}>
                 <Button href='https://poap.xyz/ios' variant="outlined" target="_blank"
