@@ -17,7 +17,7 @@ const Index = () => {
         <Box sx={{ my: 4, textAlign: 'center' }}>
           <Typography variant="h3" component="h1" sx={{ color: 'black',
             textShadow: '0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 10px #15f4ee, 0 0 15px #15f4ee, 0 0 5px #15f4ee, 0 0 15px #15f4ee, 0 0 15px #15f4ee'}}>
-            electric.film
+            electric.film <sub style={{'color':'white', 'fontSize': 'medium'}}>BETA</sub>           
           </Typography>
           <Box sx={{ m:4, overflow:'hidden', borderRadius:'50%', boxShadow: '0 15px 10px 0 #15f4ee inset, 0 5px 10px 0 #15f4ee, 0 5px 10px 0 #15f4ee inset, 0 1px 20px 0 #15f4ee'}}>
             <Image src={childPic}/>
