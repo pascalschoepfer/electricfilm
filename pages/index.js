@@ -5,8 +5,9 @@ const Home = () => {
     return (
         <div>
             <Nav/>
-            <div>Home</div>
-
+            <video playsInline autoPlay muted loop id="bgvid">
+                <source src="/bgvid.mp4" type="video/mp4"/>
+            </video>
         </div>
     )
 }
