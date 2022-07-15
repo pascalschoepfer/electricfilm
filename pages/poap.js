@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Nav from "../components/nav.js"
 
-const Home = () => {
+const Poap = () => {
 
   return (
     <div>
@@ -10,4 +10,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Poap;
