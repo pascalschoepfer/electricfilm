@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Nav styling */
+
+.container-nav div {
+  border-radius: 10px;
+}

@@ -1,13 +1,13 @@
 import Nav from "../components/nav.js"
 
-const Poap = () => {
+const Faq = () => {
 
     return (
         <div>
             <Nav/>
-            <div>POAP</div>
+            <div>FAQ</div>
         </div>
     )
 }
 
-export default Poap;
+export default Faq;
