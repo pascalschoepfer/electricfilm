@@ -5,7 +5,7 @@ const Faq = () => {
     return (
         <div>
             <Nav/>
-            <div>FAQ</div>
+            <div className='container h1 text-center'>FAQ TBD</div>
         </div>
     )
 }

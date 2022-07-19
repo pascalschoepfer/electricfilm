@@ -3,9 +3,10 @@ body {
   font-family: Bahnschrift, serif;
   width: 100vw;
   height: 100vh;
-  opacity: 0.9;
-  background: dimgrey;
+  opacity: .95;
   overflow-x: hidden;
+  background-image: url('../public/bg1.png');
+  background-size: cover;
 }
 
 a {
@@ -32,7 +33,11 @@ a {
 
 .nav-item a {
   text-decoration: none;
-  color: lightgray;
+  color: white !important;
+}
+
+.nav-item:hover a {
+  text-shadow: 1px 1px lightgrey;
 }
 
 .nav-item .active {
@@ -41,18 +46,67 @@ a {
 }
 
 .nav-item .active a {
-  color: white;
-
+  text-shadow: none;
 }
 
-/* Video Background */
-video {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -100;
-  opacity: 100%;
+/* Bottom Nav (Buttons) */
+
+.container-bottom-buttons {
+  margin-top: 70vh;
+}
+
+.container-bottom-buttons div * {
+  color: black;
+  text-decoration: none !important;
+}
+
+
+.container-bottom-buttons div a {
+  background-color: lightgray;
+  border: solid;
+}
+
+.container-bottom-buttons div > a:hover {
+  box-shadow: 0 1px 5px 0 #000 inset, 0 1px 10px 0 #000, 0 1px 5px 0 #000 inset, 0 1px 10px 0 #000;
+}
+
+/* Accordions */
+
+.accordion-button {
+  background-color: lightgray;
+  color: black;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgb(33, 36, 41);
+  color: white;
+}
+
+.accordion-body Button:hover {
+  box-shadow: 0 1px 10px 0 #000 inset, 0 1px 10px 0 #000, 0 1px 10px 0 #000 inset, 0 1px 10px 0 #000;
+}
+
+.accordion-body Button a {
+  color: black !important;
+}
+
+.accordion-collapse {
+  background-color: dimgrey;
+  color: white;
+}
+
+/* Video Guide */
+
+.container-video div * {
+  color: black;
+  text-decoration: none !important;
+}
+
+.container-video div a {
+  background-color: lightgray;
+  border: solid;
+}
+
+.container-video div > a:hover {
+  box-shadow: 0 1px 5px 0 #000 inset, 0 1px 10px 0 #000, 0 1px 5px 0 #000 inset, 0 1px 10px 0 #000;
 }
