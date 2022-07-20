@@ -1,12 +1,25 @@
-html,
-body {
+
+/* Body / Background */
+html, body {
   font-family: Bahnschrift, serif;
   width: 100vw;
   height: 100vh;
   opacity: .95;
   overflow-x: hidden;
-  background-image: url('../public/bg1.png');
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (orientation: landscape) {
+  body {
+    background-image: url('../public/bg-lg.png');
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    background-image: url('../public/bg-sm.png');
+  }
 }
 
 a {
@@ -49,25 +62,33 @@ a {
   text-shadow: none;
 }
 
-/* Bottom Nav (Buttons) */
+/* Title */
 
-.container-bottom-buttons {
-  margin-top: 70vh;
+.container-title strong {
+  font-size: 15vw;
+  text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 2px #fff, 0 0 5px #fff, 0 0 5px #fff;
 }
 
-.container-bottom-buttons div * {
+.container-title sub {
+  font-size: 3vw;
+  text-shadow: 0 0 3px #6fffff, 0 0 3px #6fffff, 0 0 3px #6fffff, 0 0 3px #6fffff, 0 0 3px #6fffff;
+}
+
+/* Bottom Nav (Buttons) */
+
+.container-bottom-buttons div *, .btn-acc {
   color: black;
   text-decoration: none !important;
 }
 
-
-.container-bottom-buttons div a {
+.container-bottom-buttons div a, .btn-acc {
   background-color: lightgray;
   border: solid;
 }
 
-.container-bottom-buttons div > a:hover {
-  box-shadow: 0 1px 5px 0 #000 inset, 0 1px 10px 0 #000, 0 1px 5px 0 #000 inset, 0 1px 10px 0 #000;
+.container-bottom-buttons div > a:hover, .btn-acc:hover, .container-video div > a:hover {
+  box-shadow: 0 1px 5px 0 #6fffff inset, 0 1px 10px 0 #6fffff, 0 1px 5px 0 #6fffff inset, 0 1px 10px 0 #6fffff;
+  border-color: #6fffff;
 }
 
 /* Accordions */
@@ -80,10 +101,6 @@ a {
 .accordion-button:not(.collapsed) {
   background-color: rgb(33, 36, 41);
   color: white;
-}
-
-.accordion-body Button:hover {
-  box-shadow: 0 1px 10px 0 #000 inset, 0 1px 10px 0 #000, 0 1px 10px 0 #000 inset, 0 1px 10px 0 #000;
 }
 
 .accordion-body Button a {
@@ -107,6 +124,46 @@ a {
   border: solid;
 }
 
-.container-video div > a:hover {
-  box-shadow: 0 1px 5px 0 #000 inset, 0 1px 10px 0 #000, 0 1px 5px 0 #000 inset, 0 1px 10px 0 #000;
+/* Responsive stuff */
+
+.container-bottom-buttons {
+  margin-top: 40vh;
+}
+
+@media (min-height: 500px) {
+  .container-bottom-buttons {
+    margin-top: 55vh;
+  }
+}
+
+@media (min-height: 701px) {
+  .container-bottom-buttons {
+    margin-top: 70vh;
+  }
+}
+
+@media (min-width: 576px) {
+  .container-title strong {
+    font-size: 7vw;
+  }
+  .container-title sub {
+    font-size: 1.5vw;
+  }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+  .container-title strong {
+    font-size: 5vw;
+  }
+  .container-title sub {
+    font-size: 1vw;
+  }
 }

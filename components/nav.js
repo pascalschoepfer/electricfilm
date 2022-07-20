@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import {useRouter} from "next/router";
+import Head from "next/head";
 
 const Nav = () => {
     const router = useRouter();
@@ -20,6 +21,10 @@ const Nav = () => {
 
     return (
         <div className="container container-nav text-center my-2 p-2 col-xl-4 col-md-6 col-sm-8 col-11">
+            <Head>
+                <title>electric.film</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
             <ul className="nav nav-pills col justify-content-center">
                 {
                     Object.values(navItems).map(item =>
