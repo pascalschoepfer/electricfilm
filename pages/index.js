@@ -8,15 +8,9 @@ const Home = () => {
     return (
         <div>
             <Nav/>
-            <div className='container justify-content-center text-center container-title mt-3 col-12'>
-                <div className='row justify-content-center '>
-                    <div className='col-10'>
-                      <strong>electric.film</strong>
-                    </div>
-                    <div>
-                        <sub>BETA</sub>
-                    </div>
-                </div>
+            <div className='container text-center container-title mt-3'>
+                <strong>electric.film</strong>
+                <p>BETA</p>
             </div>
             <div className="container container-bottom-buttons text-center p-md-2 col-xl-4 col-md-6 col-sm-8 col-12">
                 <div className="nav nav-pills row justify-content-center">

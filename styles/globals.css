@@ -1,25 +1,27 @@
 
 /* Body / Background */
-html, body {
+html {
   font-family: Bahnschrift, serif;
-  width: 100vw;
-  height: 100vh;
-  opacity: .95;
-  overflow-x: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 @media (orientation: landscape) {
   body {
-    background-image: url('../public/bg-lg.png');
+    background: url('../public/bg-lg.png') no-repeat center center fixed;
   }
 }
 
 @media (orientation: portrait) {
   body {
-    background-image: url('../public/bg-sm.png');
+    background: url('../public/bg-sm.png') no-repeat center center fixed;
   }
+}
+
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: .95;
 }
 
 a {
@@ -69,7 +71,7 @@ a {
   text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 2px #fff, 0 0 5px #fff, 0 0 5px #fff;
 }
 
-.container-title sub {
+.container-title p {
   font-size: 5vw;
   text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 2px #fff, 0 0 5px #fff, 0 0 5px #fff;
 }
@@ -146,7 +148,7 @@ a {
   .container-title strong {
     font-size: 7vw;
   }
-  .container-title sub {
+  .container-title p {
     font-size: 2vw;
   }
 }
@@ -167,7 +169,7 @@ a {
   .container-title strong {
     font-size: 5vw;
   }
-  .container-title sub {
+  .container-title p {
     font-size: 1vw;
   }
 }
