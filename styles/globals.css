@@ -69,9 +69,9 @@ a {
   text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 2px #fff, 0 0 5px #fff, 0 0 5px #fff;
 }
 
-.container-title sub {
+.container-title h6 {
   font-size: 3vw;
-  text-shadow: 0 0 3px #6fffff, 0 0 3px #6fffff, 0 0 3px #6fffff, 0 0 3px #6fffff, 0 0 3px #6fffff;
+  text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 2px #fff, 0 0 5px #fff, 0 0 5px #fff;
 }
 
 /* Bottom Nav (Buttons) */
@@ -132,13 +132,13 @@ a {
 
 @media (min-height: 500px) {
   .container-bottom-buttons {
-    margin-top: 55vh;
+    margin-top: 60vh;
   }
 }
 
 @media (min-height: 701px) {
   .container-bottom-buttons {
-    margin-top: 70vh;
+    margin-top: 65vh;
   }
 }
 
@@ -146,9 +146,13 @@ a {
   .container-title strong {
     font-size: 7vw;
   }
-  .container-title sub {
+  .container-title h6 {
     font-size: 1.5vw;
   }
+}
+
+.btn-acc {
+  font-size: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -163,7 +167,7 @@ a {
   .container-title strong {
     font-size: 5vw;
   }
-  .container-title sub {
+  .container-title h6 {
     font-size: 1vw;
   }
 }

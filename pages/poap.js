@@ -36,89 +36,90 @@ const Poap = () => {
                                         <div>Download and install a Crypto Wallet on your mobile phone, we recommend
                                             &quot;MetaMask&quot;:
                                         </div>
-                                        <br/>
-                                        <a className='btn btn-lg mx-1 btn-acc' href='https://metamask.io/download/'
-                                           target="_blank" rel="noopener noreferrer">
-                                            Download MetaMask <svg id='svgMM' viewBox="0 0 318.6 318.6" width='5vh'>
-                                            <path fill="#E2761B" stroke="#E2761B" strokeLinecap="round"
-                                                  strokeLinejoin="round" d="M274.1 35.5L174.6 109.4 193 65.8z"/>
-                                            <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
-                                                  strokeLinejoin="round" d="M44.4 35.5L143.1 110.1 125.6 65.8z"/>
-                                            <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M238.3 206.8L211.8 247.4 268.5 263 284.8 207.7z"/>
-                                            <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M33.9 207.7L50.1 263 106.8 247.4 80.3 206.8z"/>
-                                            <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M103.6 138.2L87.8 162.1 144.1 164.6 142.1 104.1z"/>
-                                            <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M214.9 138.2L175.9 103.4 174.6 164.6 230.8 162.1z"/>
-                                            <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
-                                                  strokeLinejoin="round" d="M106.8 247.4L140.6 230.9 111.4 208.1z"/>
-                                            <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
-                                                  strokeLinejoin="round" d="M177.9 230.9L211.8 247.4 207.1 208.1z"/>
-                                            <path fill="#D7C1B3" stroke="#D7C1B3" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M211.8 247.4L177.9 230.9 180.6 253 180.3 262.3z"/>
-                                            <path fill="#D7C1B3" stroke="#D7C1B3" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M106.8 247.4L138.3 262.3 138.1 253 140.6 230.9z"/>
-                                            <path fill="#233447" stroke="#233447" strokeLinecap="round"
-                                                  strokeLinejoin="round" d="M138.8 193.5L110.6 185.2 130.5 176.1z"/>
-                                            <path fill="#233447" stroke="#233447" strokeLinecap="round"
-                                                  strokeLinejoin="round" d="M179.7 193.5L188 176.1 208 185.2z"/>
-                                            <path fill="#CD6116" stroke="#CD6116" strokeLinecap="round"
-                                                  strokeLinejoin="round" d="M106.8 247.4L111.6 206.8 80.3 207.7z"/>
-                                            <path fill="#CD6116" stroke="#CD6116" strokeLinecap="round"
-                                                  strokeLinejoin="round" d="M207 206.8L211.8 247.4 238.3 207.7z"/>
-                                            <path fill="#CD6116" stroke="#CD6116" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M230.8 162.1L174.6 164.6 179.8 193.5 188.1 176.1 208.1 185.2z"/>
-                                            <path fill="#CD6116" stroke="#CD6116" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M110.6 185.2L130.6 176.1 138.8 193.5 144.1 164.6 87.8 162.1z"/>
-                                            <path fill="#E4751F" stroke="#E4751F" strokeLinecap="round"
-                                                  strokeLinejoin="round" d="M87.8 162.1L111.4 208.1 110.6 185.2z"/>
-                                            <path fill="#E4751F" stroke="#E4751F" strokeLinecap="round"
-                                                  strokeLinejoin="round" d="M208.1 185.2L207.1 208.1 230.8 162.1z"/>
-                                            <path fill="#E4751F" stroke="#E4751F" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M144.1 164.6L138.8 193.5 145.4 227.6 146.9 182.7z"/>
-                                            <path fill="#E4751F" stroke="#E4751F" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M174.6 164.6L171.9 182.6 173.1 227.6 179.8 193.5z"/>
-                                            <path fill="#F6851B" stroke="#F6851B" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M179.8 193.5L173.1 227.6 177.9 230.9 207.1 208.1 208.1 185.2z"/>
-                                            <path fill="#F6851B" stroke="#F6851B" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M110.6 185.2L111.4 208.1 140.6 230.9 145.4 227.6 138.8 193.5z"/>
-                                            <path fill="#C0AD9E" stroke="#C0AD9E" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M180.3 262.3L180.6 253 178.1 250.8 140.4 250.8 138.1 253 138.3 262.3 106.8 247.4 117.8 256.4 140.1 271.9 178.4 271.9 200.8 256.4 211.8 247.4z"/>
-                                            <path fill="#161616" stroke="#161616" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M177.9 230.9L173.1 227.6 145.4 227.6 140.6 230.9 138.1 253 140.4 250.8 178.1 250.8 180.6 253z"/>
-                                            <path fill="#763D16" stroke="#763D16" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M278.3 114.2L286.8 73.4 274.1 35.5 177.9 106.9 214.9 138.2 267.2 153.5 278.8 140 273.8 136.4 281.8 129.1 275.6 124.3 283.6 118.2z"/>
-                                            <path fill="#763D16" stroke="#763D16" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M31.8 73.4L40.3 114.2 34.9 118.2 42.9 124.3 36.8 129.1 44.8 136.4 39.8 140 51.3 153.5 103.6 138.2 140.6 106.9 44.4 35.5z"/>
-                                            <path fill="#F6851B" stroke="#F6851B" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M267.2 153.5L214.9 138.2 230.8 162.1 207.1 208.1 238.3 207.7 284.8 207.7z"/>
-                                            <path fill="#F6851B" stroke="#F6851B" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M103.6 138.2L51.3 153.5 33.9 207.7 80.3 207.7 111.4 208.1 87.8 162.1z"/>
-                                            <path fill="#F6851B" stroke="#F6851B" strokeLinecap="round"
-                                                  strokeLinejoin="round"
-                                                  d="M174.6 164.6L177.9 106.9 193.1 65.8 125.6 65.8 140.6 106.9 144.1 164.6 145.3 182.8 145.4 227.6 173.1 227.6 173.3 182.8z"/>
-                                        </svg>
-                                        </a>
+                                        <div className='my-3'>
+                                            <a className='btn btn-lg mx-1 btn-acc' href='https://metamask.io/download/'
+                                               target="_blank" rel="noopener noreferrer">
+                                                MetaMask <svg id='svgMM' viewBox="0 0 318.6 318.6" width='5vh'>
+                                                <path fill="#E2761B" stroke="#E2761B" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M274.1 35.5L174.6 109.4 193 65.8z"/>
+                                                <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M44.4 35.5L143.1 110.1 125.6 65.8z"/>
+                                                <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M238.3 206.8L211.8 247.4 268.5 263 284.8 207.7z"/>
+                                                <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M33.9 207.7L50.1 263 106.8 247.4 80.3 206.8z"/>
+                                                <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M103.6 138.2L87.8 162.1 144.1 164.6 142.1 104.1z"/>
+                                                <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M214.9 138.2L175.9 103.4 174.6 164.6 230.8 162.1z"/>
+                                                <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M106.8 247.4L140.6 230.9 111.4 208.1z"/>
+                                                <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M177.9 230.9L211.8 247.4 207.1 208.1z"/>
+                                                <path fill="#D7C1B3" stroke="#D7C1B3" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M211.8 247.4L177.9 230.9 180.6 253 180.3 262.3z"/>
+                                                <path fill="#D7C1B3" stroke="#D7C1B3" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M106.8 247.4L138.3 262.3 138.1 253 140.6 230.9z"/>
+                                                <path fill="#233447" stroke="#233447" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M138.8 193.5L110.6 185.2 130.5 176.1z"/>
+                                                <path fill="#233447" stroke="#233447" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M179.7 193.5L188 176.1 208 185.2z"/>
+                                                <path fill="#CD6116" stroke="#CD6116" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M106.8 247.4L111.6 206.8 80.3 207.7z"/>
+                                                <path fill="#CD6116" stroke="#CD6116" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M207 206.8L211.8 247.4 238.3 207.7z"/>
+                                                <path fill="#CD6116" stroke="#CD6116" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M230.8 162.1L174.6 164.6 179.8 193.5 188.1 176.1 208.1 185.2z"/>
+                                                <path fill="#CD6116" stroke="#CD6116" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M110.6 185.2L130.6 176.1 138.8 193.5 144.1 164.6 87.8 162.1z"/>
+                                                <path fill="#E4751F" stroke="#E4751F" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M87.8 162.1L111.4 208.1 110.6 185.2z"/>
+                                                <path fill="#E4751F" stroke="#E4751F" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M208.1 185.2L207.1 208.1 230.8 162.1z"/>
+                                                <path fill="#E4751F" stroke="#E4751F" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M144.1 164.6L138.8 193.5 145.4 227.6 146.9 182.7z"/>
+                                                <path fill="#E4751F" stroke="#E4751F" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M174.6 164.6L171.9 182.6 173.1 227.6 179.8 193.5z"/>
+                                                <path fill="#F6851B" stroke="#F6851B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M179.8 193.5L173.1 227.6 177.9 230.9 207.1 208.1 208.1 185.2z"/>
+                                                <path fill="#F6851B" stroke="#F6851B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M110.6 185.2L111.4 208.1 140.6 230.9 145.4 227.6 138.8 193.5z"/>
+                                                <path fill="#C0AD9E" stroke="#C0AD9E" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M180.3 262.3L180.6 253 178.1 250.8 140.4 250.8 138.1 253 138.3 262.3 106.8 247.4 117.8 256.4 140.1 271.9 178.4 271.9 200.8 256.4 211.8 247.4z"/>
+                                                <path fill="#161616" stroke="#161616" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M177.9 230.9L173.1 227.6 145.4 227.6 140.6 230.9 138.1 253 140.4 250.8 178.1 250.8 180.6 253z"/>
+                                                <path fill="#763D16" stroke="#763D16" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M278.3 114.2L286.8 73.4 274.1 35.5 177.9 106.9 214.9 138.2 267.2 153.5 278.8 140 273.8 136.4 281.8 129.1 275.6 124.3 283.6 118.2z"/>
+                                                <path fill="#763D16" stroke="#763D16" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M31.8 73.4L40.3 114.2 34.9 118.2 42.9 124.3 36.8 129.1 44.8 136.4 39.8 140 51.3 153.5 103.6 138.2 140.6 106.9 44.4 35.5z"/>
+                                                <path fill="#F6851B" stroke="#F6851B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M267.2 153.5L214.9 138.2 230.8 162.1 207.1 208.1 238.3 207.7 284.8 207.7z"/>
+                                                <path fill="#F6851B" stroke="#F6851B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M103.6 138.2L51.3 153.5 33.9 207.7 80.3 207.7 111.4 208.1 87.8 162.1z"/>
+                                                <path fill="#F6851B" stroke="#F6851B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M174.6 164.6L177.9 106.9 193.1 65.8 125.6 65.8 140.6 106.9 144.1 164.6 145.3 182.8 145.4 227.6 173.1 227.6 173.3 182.8z"/>
+                                            </svg>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +138,7 @@ const Poap = () => {
                                             &quot;Create a new wallet&quot;.
                                         </div>
                                         <div className='container px-xxl-5 mt-2'>
-                                            <Image src={mm1} alt='mm1'/>
+                                            <Image src={mm1} alt='mm1' loading="eager"/>
                                         </div>
                                         <div className="my-3">
                                             Create a new password and confirm it. You can also enable biometric
@@ -145,7 +146,7 @@ const Poap = () => {
                                             &quot;Face ID&quot;.
                                         </div>
                                         <div className='container px-xxl-5 mt-2'>
-                                            <Image src={mm2} alt='mm2'/>
+                                            <Image src={mm2} alt='mm2' loading="eager"/>
                                         </div>
                                     </div>
 
@@ -172,7 +173,7 @@ const Poap = () => {
                                             digitally!
                                         </div>
                                         <div className='container px-xxl-5 mt-2'>
-                                            <Image src={mm3} alt='mm3'/>
+                                            <Image src={mm3} alt='mm3' loading="eager"/>
                                         </div>
                                         <div className="my-3">
                                             When you are finished setting up, copy your account address (Starts with
@@ -205,12 +206,12 @@ const Poap = () => {
                                      data-bs-parent="#accordionPOAP">
                                     <div className="accordion-body">
                                         <div>Download the POAP app for your mobile device:</div>
-                                        <div className="row mt-2">
-                                            <a className='btn btn-lg btn-acc col-4 mx-2' href='https://poap.xyz/ios'
+                                        <div className="row my-3">
+                                            <a className='btn btn-lg btn-acc col-5 mx-1' href='https://poap.xyz/ios'
                                                target="_blank" rel="noopener noreferrer">
-                                                Apple iOS <FontAwesomeIcon icon={faApple}/>
+                                                iPhone <FontAwesomeIcon icon={faApple}/>
                                             </a>
-                                            <a className='btn btn-lg btn-acc col-4 mx-2' href='https://poap.xyz/android'
+                                            <a className='btn btn-lg btn-acc col-5 mx-1' href='https://poap.xyz/android'
                                                target="_blank" rel="noopener noreferrer">
                                                 Android <FontAwesomeIcon icon={faAndroid}/>
                                             </a>
