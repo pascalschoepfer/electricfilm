@@ -20,7 +20,7 @@ const Nav = () => {
     }
 
     return (
-        <div className="container container-nav text-center my-2 p-2 col-xl-4 col-md-6 col-sm-8 col-11">
+        <div className="container container-nav text-center mt-3 p-2 col-xl-4 col-md-6 col-sm-8 col-11">
             <Head>
                 <title>electric.film</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />

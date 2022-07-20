@@ -8,9 +8,10 @@ const Home = () => {
     return (
         <div>
             <Nav/>
-            <div className='container text-center container-title mt-3 col-10'>
-                <h1><strong>electric.film</strong></h1>
-                <h6><i>BETA</i></h6>
+            <div className='container d-flex justify-content-center text-center container-title mt-3'>
+                <div>
+                    <h1><strong>electric.film</strong><sub><i>BETA</i></sub></h1>
+                </div>
             </div>
             <div className="container container-bottom-buttons text-center p-md-2 col-xl-4 col-md-6 col-sm-8 col-12">
                 <div className="nav nav-pills row justify-content-center">

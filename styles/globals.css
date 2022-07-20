@@ -69,7 +69,7 @@ a {
   text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 2px #fff, 0 0 5px #fff, 0 0 5px #fff;
 }
 
-.container-title h6 {
+.container-title sub {
   font-size: 3vw;
   text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 2px #fff, 0 0 5px #fff, 0 0 5px #fff;
 }
@@ -127,12 +127,12 @@ a {
 /* Responsive stuff */
 
 .container-bottom-buttons {
-  margin-top: 40vh;
+  margin-top: 35vh;
 }
 
 @media (min-height: 500px) {
   .container-bottom-buttons {
-    margin-top: 60vh;
+    margin-top: 55vh;
   }
 }
 
@@ -146,7 +146,7 @@ a {
   .container-title strong {
     font-size: 7vw;
   }
-  .container-title h6 {
+  .container-title sub {
     font-size: 1.5vw;
   }
 }
@@ -167,7 +167,7 @@ a {
   .container-title strong {
     font-size: 5vw;
   }
-  .container-title h6 {
+  .container-title sub {
     font-size: 1vw;
   }
 }

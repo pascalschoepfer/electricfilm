@@ -138,7 +138,7 @@ const Poap = () => {
                                             &quot;Create a new wallet&quot;.
                                         </div>
                                         <div className='container px-xxl-5 mt-2'>
-                                            <Image src={mm1} alt='mm1' loading="eager"/>
+                                            <Image src={mm1} alt='mm1' priority={true}/>
                                         </div>
                                         <div className="my-3">
                                             Create a new password and confirm it. You can also enable biometric
@@ -146,7 +146,7 @@ const Poap = () => {
                                             &quot;Face ID&quot;.
                                         </div>
                                         <div className='container px-xxl-5 mt-2'>
-                                            <Image src={mm2} alt='mm2' loading="eager"/>
+                                            <Image src={mm2} alt='mm2' priority={true}/>
                                         </div>
                                     </div>
 
@@ -173,7 +173,7 @@ const Poap = () => {
                                             digitally!
                                         </div>
                                         <div className='container px-xxl-5 mt-2'>
-                                            <Image src={mm3} alt='mm3' loading="eager"/>
+                                            <Image src={mm3} alt='mm3' priority={true}/>
                                         </div>
                                         <div className="my-3">
                                             When you are finished setting up, copy your account address (Starts with
@@ -181,7 +181,7 @@ const Poap = () => {
                                             by tapping on it, you will need this in the next step.
                                         </div>
                                         <div className='container px-xxl-5 mt-2'>
-                                            <Image src={mm4} alt='mm4'/>
+                                            <Image src={mm4} alt='mm4' priority={true}/>
                                         </div>
                                     </div>
 
@@ -233,7 +233,7 @@ const Poap = () => {
                                         address into the field.
                                     </div>
                                     <div className='container pb-3'>
-                                        <Image src={poap1} alt='poap1'/>
+                                        <Image src={poap1} alt='poap1' priority={true}/>
                                     </div>
                                 </div>
                             </div>
@@ -252,10 +252,10 @@ const Poap = () => {
                                         received one.
                                     </div>
                                     <div className='container px-xxl-5 mt-1'>
-                                        <Image src={poap2} alt='poap2'/>
+                                        <Image src={poap2} alt='poap2' priority={true}/>
                                     </div>
                                     <div className='container px-xxl-5 mt-2'>
-                                        <Image src={poap3} alt='poap3'/>
+                                        <Image src={poap3} alt='poap3' priority={true}/>
                                     </div>
                                 </div>
                             </div>
