@@ -32,9 +32,9 @@ const Poap = () => {
                                      data-bs-parent="#accordionMM">
                                     <div className="accordion-body">
                                         <i>If you already have a Crypto Wallet, you can directly go to the second
-                                            section "2 - Get the POAP".</i> <br/><br/>
+                                            section &quot;2 - Get the POAP&quot;.</i> <br/><br/>
                                         <div>Download and install a Crypto Wallet on your mobile phone, we recommend
-                                            "MetaMask":
+                                            &quot;MetaMask&quot;:
                                         </div>
                                         <br/>
                                         <a className='btn btn-lg mx-1 btn-acc' href='https://metamask.io/download/'
@@ -133,8 +133,8 @@ const Poap = () => {
                                      data-bs-parent="#accordionMM">
                                     <div className="accordion-body">
                                         <div>
-                                            After starting the MetaMask app and selecting "Get Started", click on
-                                            "Create a new wallet".
+                                            After starting the MetaMask app and selecting &quot;Get Started&quot;, click on
+                                            &quot;Create a new wallet&quot;.
                                         </div>
                                         <div className='container px-xxl-5 mt-2'>
                                             <Image src={mm1} alt='mm1'/>
@@ -142,7 +142,7 @@ const Poap = () => {
                                         <div className="my-3">
                                             Create a new password and confirm it. You can also enable biometric
                                             authentication like
-                                            "Face ID".
+                                            &quot;Face ID&quot;.
                                         </div>
                                         <div className='container px-xxl-5 mt-2'>
                                             <Image src={mm2} alt='mm2'/>
@@ -166,7 +166,7 @@ const Poap = () => {
                                             and
                                             paper, write it down and store it securely by following the steps in the
                                             app.<br/> <br/>
-                                            If you dont have time or a pen and a paper, click "Remind me later" to get
+                                            If you dont have time or a pen and a paper, click &quot;Remind me later&quot; to get
                                             to
                                             the next step. Never share this with anyone and dont save it anywhere
                                             digitally!
@@ -246,8 +246,8 @@ const Poap = () => {
                                 <div id="collapseThreePOAP" className="accordion-collapse collapse"
                                      data-bs-parent="#accordionPOAP">
                                     <div className="accordion-body">
-                                        Now you are ready to claim a POAP. Click "Mint" and then "Scan QR" to scan the
-                                        QR code handed out by the team on site or use the "Secret word" if you have
+                                        Now you are ready to claim a POAP. Click &quot;Mint&quot; and then &quot;Scan QR&quot; to scan the
+                                        QR code handed out by the team on site or use the &quot;Secret word&quot; if you have
                                         received one.
                                     </div>
                                     <div className='container px-xxl-5 mt-1'>
