@@ -1,6 +1,6 @@
 import Nav from "../components/nav.js"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faDiscord, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import {faDiscord, faTwitter} from '@fortawesome/free-brands-svg-icons'
 
 
 const Home = () => {
@@ -8,19 +8,26 @@ const Home = () => {
     return (
         <div>
             <Nav/>
-            <div className='container d-flex justify-content-center text-center container-title mt-3'>
-                <div>
-                    <h1><strong>electric.film</strong><sub><i>BETA</i></sub></h1>
+            <div className='container justify-content-center text-center container-title mt-3 col-12'>
+                <div className='row justify-content-center '>
+                    <div className='col-10'>
+                      <strong>electric.film</strong>
+                    </div>
+                    <div>
+                        <sub>BETA</sub>
+                    </div>
                 </div>
             </div>
             <div className="container container-bottom-buttons text-center p-md-2 col-xl-4 col-md-6 col-sm-8 col-12">
                 <div className="nav nav-pills row justify-content-center">
-                        <a className='btn btn-lg col-5 mx-1' href='https://discord.gg/e2gRJCQbQW' target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faDiscord} className='px-2'/>Discord
-                        </a>
-                        <a className='btn btn-lg col-5 mx-1' href='https://twitter.com/el3ctricfilm' target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faTwitter} className='px-2'/>Twitter
-                        </a>
+                    <a className='btn btn-lg col-5 mx-1' href='https://discord.gg/e2gRJCQbQW' target="_blank"
+                       rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faDiscord} className='px-2'/>Discord
+                    </a>
+                    <a className='btn btn-lg col-5 mx-1' href='https://twitter.com/el3ctricfilm' target="_blank"
+                       rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faTwitter} className='px-2'/>Twitter
+                    </a>
                 </div>
             </div>
 

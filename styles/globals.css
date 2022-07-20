@@ -70,7 +70,7 @@ a {
 }
 
 .container-title sub {
-  font-size: 3vw;
+  font-size: 5vw;
   text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 2px #fff, 0 0 5px #fff, 0 0 5px #fff;
 }
 
@@ -147,7 +147,7 @@ a {
     font-size: 7vw;
   }
   .container-title sub {
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
 }
 
