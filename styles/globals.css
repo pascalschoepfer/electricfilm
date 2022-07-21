@@ -1,9 +1,27 @@
-html,
+
+/* Body / Background */
+html {
+  font-family: Bahnschrift, serif;
+}
+
+@media (orientation: landscape) {
+  body {
+    background: url('../public/bg-lg.png') no-repeat center center fixed;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    background: url('../public/bg-sm.png') no-repeat center center fixed;
+  }
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: .95;
 }
 
 a {
@@ -13,4 +31,145 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+/* Nav styling */
+
+.container-nav {
+  background: dimgrey;
+  border-radius: 5px;
+}
+
+.nav-item div {
+  width: 100%;
+  height: 100%;
+  padding: 1% 10%;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white !important;
+}
+
+.nav-item:hover a {
+  text-shadow: 1px 1px lightgrey;
+}
+
+.nav-item .active {
+  background-color: rgb(33, 36, 41);
+  border-radius: 5px;
+}
+
+.nav-item .active a {
+  text-shadow: none;
+}
+
+/* Title */
+
+.container-title strong {
+  font-size: 15vw;
+  text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 2px #fff, 0 0 5px #fff, 0 0 5px #fff;
+}
+
+.container-title p {
+  font-size: 5vw;
+  text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 2px #fff, 0 0 5px #fff, 0 0 5px #fff;
+}
+
+/* Bottom Nav (Buttons) */
+
+.container-bottom-buttons div *, .btn-acc {
+  color: black;
+  text-decoration: none !important;
+}
+
+.container-bottom-buttons div a, .btn-acc {
+  background-color: lightgray;
+  border: solid;
+}
+
+.container-bottom-buttons div > a:hover, .btn-acc:hover, .container-video div > a:hover {
+  box-shadow: 0 1px 5px 0 #6fffff inset, 0 1px 10px 0 #6fffff, 0 1px 5px 0 #6fffff inset, 0 1px 10px 0 #6fffff;
+  border-color: #6fffff;
+}
+
+/* Accordions */
+
+.accordion-button {
+  background-color: lightgray;
+  color: black;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgb(33, 36, 41);
+  color: white;
+}
+
+.accordion-body Button a {
+  color: black !important;
+}
+
+.accordion-collapse {
+  background-color: dimgrey;
+  color: white;
+}
+
+/* Video Guide */
+
+.container-video div * {
+  color: black;
+  text-decoration: none !important;
+}
+
+.container-video div a {
+  background-color: lightgray;
+  border: solid;
+}
+
+/* Responsive stuff */
+
+.container-bottom-buttons {
+  margin-top: 35vh;
+}
+
+@media (min-height: 500px) {
+  .container-bottom-buttons {
+    margin-top: 50vh;
+  }
+}
+
+@media (min-height: 701px) {
+  .container-bottom-buttons {
+    margin-top: 65vh;
+  }
+}
+
+@media (min-width: 576px) {
+  .container-title strong {
+    font-size: 7vw;
+  }
+  .container-title p {
+    font-size: 2vw;
+  }
+}
+
+.btn-acc {
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+  .container-title strong {
+    font-size: 5vw;
+  }
+  .container-title p {
+    font-size: 1vw;
+  }
 }

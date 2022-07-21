@@ -1,133 +1,299 @@
-import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
-import MuiAccordion from '@mui/material/Accordion';
-import MuiAccordionSummary from '@mui/material/AccordionSummary';
-import MuiAccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import Menu from '../components/Menu';
-import Container from '@mui/material/Container';
-import Box from '@mui/material/Box';
-import Image from 'next/image';
-import mailPic from '../public/mail.jpg'
-import mintPic from '../public/mint.jpg'
-import wordPic from '../public/word.jpg'
-import { Stack } from '@mui/material';
-import SvgIcon from '@mui/material/SvgIcon';
+import Nav from "../components/nav.js"
+import {Button} from "@aws-amplify/ui-react";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faAndroid, faApple, faYoutube} from "@fortawesome/free-brands-svg-icons";
+import Image from "next/image";
+import mm1 from '../public/mm1.png';
+import mm2 from '../public/mm2.png';
+import mm3 from '../public/mm3.png';
+import mm4 from '../public/mm4.png';
+import poap1 from '../public/poap1.jpg';
+import poap2 from '../public/poap2.jpg';
+import poap3 from '../public/poap3.jpg';
 
-const Accordion = styled((props) => (
-  <MuiAccordion disableGutters elevation={0} square {...props} />))(({ theme }) => ({
-    border: `1px solid ${theme.palette.divider}`, '&:not(:last-child)': { borderBottom: 0, },
-    '&:before': { display: 'none', },
-  }));
+const Poap = () => {
 
-const AccordionSummary = styled((props) => (
-  <MuiAccordionSummary expandIcon={<ArrowForwardIosSharpIcon sx={{ fontSize: '0.9rem' }} />}{...props} />))(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? 'rgba(255, 255, 255, .05)' : 'rgba(0, 0, 0, .03)',
-    flexDirection: 'row-reverse', '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': { transform: 'rotate(90deg)', },
-    '& .MuiAccordionSummary-content': { marginLeft: theme.spacing(1), },
-  }));
+    return (
+        <div>
+            <Nav/>
+            <div className="container d-md-flex">
+                <div className="container p-2 col-md-5 col-sm-8 col-11">
+                    <div className="row justify-content-center">
+                        <h3>1 - Install Wallet (MetaMask)</h3>
+                        <div className="accordion" id="accordionMM">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingOne">
+                                    <button className="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOneMM">
+                                        1a - Download and install MetaMask
+                                    </button>
+                                </h2>
+                                <div id="collapseOneMM" className="accordion-collapse collapse show"
+                                     data-bs-parent="#accordionMM">
+                                    <div className="accordion-body">
+                                        <i>If you already have a Crypto Wallet, you can directly go to the second
+                                            section &quot;2 - Get the POAP&quot;.</i> <br/><br/>
+                                        <div>Download and install a Crypto Wallet on your mobile phone, we recommend
+                                            &quot;MetaMask&quot;:
+                                        </div>
+                                        <div className='my-3'>
+                                            <a className='btn btn-lg mx-1 btn-acc' href='https://metamask.io/download/'
+                                               target="_blank" rel="noopener noreferrer">
+                                                MetaMask <svg id='svgMM' viewBox="0 0 318.6 318.6" width='5vh'>
+                                                <path fill="#E2761B" stroke="#E2761B" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M274.1 35.5L174.6 109.4 193 65.8z"/>
+                                                <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M44.4 35.5L143.1 110.1 125.6 65.8z"/>
+                                                <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M238.3 206.8L211.8 247.4 268.5 263 284.8 207.7z"/>
+                                                <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M33.9 207.7L50.1 263 106.8 247.4 80.3 206.8z"/>
+                                                <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M103.6 138.2L87.8 162.1 144.1 164.6 142.1 104.1z"/>
+                                                <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M214.9 138.2L175.9 103.4 174.6 164.6 230.8 162.1z"/>
+                                                <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M106.8 247.4L140.6 230.9 111.4 208.1z"/>
+                                                <path fill="#E4761B" stroke="#E4761B" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M177.9 230.9L211.8 247.4 207.1 208.1z"/>
+                                                <path fill="#D7C1B3" stroke="#D7C1B3" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M211.8 247.4L177.9 230.9 180.6 253 180.3 262.3z"/>
+                                                <path fill="#D7C1B3" stroke="#D7C1B3" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M106.8 247.4L138.3 262.3 138.1 253 140.6 230.9z"/>
+                                                <path fill="#233447" stroke="#233447" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M138.8 193.5L110.6 185.2 130.5 176.1z"/>
+                                                <path fill="#233447" stroke="#233447" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M179.7 193.5L188 176.1 208 185.2z"/>
+                                                <path fill="#CD6116" stroke="#CD6116" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M106.8 247.4L111.6 206.8 80.3 207.7z"/>
+                                                <path fill="#CD6116" stroke="#CD6116" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M207 206.8L211.8 247.4 238.3 207.7z"/>
+                                                <path fill="#CD6116" stroke="#CD6116" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M230.8 162.1L174.6 164.6 179.8 193.5 188.1 176.1 208.1 185.2z"/>
+                                                <path fill="#CD6116" stroke="#CD6116" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M110.6 185.2L130.6 176.1 138.8 193.5 144.1 164.6 87.8 162.1z"/>
+                                                <path fill="#E4751F" stroke="#E4751F" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M87.8 162.1L111.4 208.1 110.6 185.2z"/>
+                                                <path fill="#E4751F" stroke="#E4751F" strokeLinecap="round"
+                                                      strokeLinejoin="round" d="M208.1 185.2L207.1 208.1 230.8 162.1z"/>
+                                                <path fill="#E4751F" stroke="#E4751F" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M144.1 164.6L138.8 193.5 145.4 227.6 146.9 182.7z"/>
+                                                <path fill="#E4751F" stroke="#E4751F" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M174.6 164.6L171.9 182.6 173.1 227.6 179.8 193.5z"/>
+                                                <path fill="#F6851B" stroke="#F6851B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M179.8 193.5L173.1 227.6 177.9 230.9 207.1 208.1 208.1 185.2z"/>
+                                                <path fill="#F6851B" stroke="#F6851B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M110.6 185.2L111.4 208.1 140.6 230.9 145.4 227.6 138.8 193.5z"/>
+                                                <path fill="#C0AD9E" stroke="#C0AD9E" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M180.3 262.3L180.6 253 178.1 250.8 140.4 250.8 138.1 253 138.3 262.3 106.8 247.4 117.8 256.4 140.1 271.9 178.4 271.9 200.8 256.4 211.8 247.4z"/>
+                                                <path fill="#161616" stroke="#161616" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M177.9 230.9L173.1 227.6 145.4 227.6 140.6 230.9 138.1 253 140.4 250.8 178.1 250.8 180.6 253z"/>
+                                                <path fill="#763D16" stroke="#763D16" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M278.3 114.2L286.8 73.4 274.1 35.5 177.9 106.9 214.9 138.2 267.2 153.5 278.8 140 273.8 136.4 281.8 129.1 275.6 124.3 283.6 118.2z"/>
+                                                <path fill="#763D16" stroke="#763D16" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M31.8 73.4L40.3 114.2 34.9 118.2 42.9 124.3 36.8 129.1 44.8 136.4 39.8 140 51.3 153.5 103.6 138.2 140.6 106.9 44.4 35.5z"/>
+                                                <path fill="#F6851B" stroke="#F6851B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M267.2 153.5L214.9 138.2 230.8 162.1 207.1 208.1 238.3 207.7 284.8 207.7z"/>
+                                                <path fill="#F6851B" stroke="#F6851B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M103.6 138.2L51.3 153.5 33.9 207.7 80.3 207.7 111.4 208.1 87.8 162.1z"/>
+                                                <path fill="#F6851B" stroke="#F6851B" strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      d="M174.6 164.6L177.9 106.9 193.1 65.8 125.6 65.8 140.6 106.9 144.1 164.6 145.3 182.8 145.4 227.6 173.1 227.6 173.3 182.8z"/>
+                                            </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingTwo">
+                                    <button className="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwoMM">
+                                        1b - Configure MetaMask
+                                    </button>
+                                </h2>
+                                <div id="collapseTwoMM" className="accordion-collapse collapse"
+                                     data-bs-parent="#accordionMM">
+                                    <div className="accordion-body">
+                                        <div>
+                                            After starting the MetaMask app and selecting &quot;Get Started&quot;, click on
+                                            &quot;Create a new wallet&quot;.
+                                        </div>
+                                        <div className='container px-xxl-5 mt-2'>
+                                            <Image src={mm1} alt='mm1' priority={true}/>
+                                        </div>
+                                        <div className="my-3">
+                                            Create a new password and confirm it. You can also enable biometric
+                                            authentication like
+                                            &quot;Face ID&quot;.
+                                        </div>
+                                        <div className='container px-xxl-5 mt-2'>
+                                            <Image src={mm2} alt='mm2' priority={true}/>
+                                        </div>
+                                    </div>
 
-const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
-  padding: theme.spacing(2),
-  borderTop: '1px solid rgba(0, 0, 0, .125)',
-}));
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingThree">
+                                    <button className="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThreeMM">
+                                        1c - Finish wallet setup and copy your new address
+                                    </button>
+                                </h2>
+                                <div id="collapseThreeMM" className="accordion-collapse collapse"
+                                     data-bs-parent="#accordionMM">
+                                    <div className="accordion-body">
+                                        <div className="mb-3">
+                                            Next, it asks you to backup your recovery phrase. If you have time and a pen
+                                            and
+                                            paper, write it down and store it securely by following the steps in the
+                                            app.<br/> <br/>
+                                            If you dont have time or a pen and a paper, click &quot;Remind me later&quot; to get
+                                            to
+                                            the next step. Never share this with anyone and dont save it anywhere
+                                            digitally!
+                                        </div>
+                                        <div className='container px-xxl-5 mt-2'>
+                                            <Image src={mm3} alt='mm3' priority={true}/>
+                                        </div>
+                                        <div className="my-3">
+                                            When you are finished setting up, copy your account address (Starts with
+                                            0x...)
+                                            by tapping on it, you will need this in the next step.
+                                        </div>
+                                        <div className='container px-xxl-5 mt-2'>
+                                            <Image src={mm4} alt='mm4' priority={true}/>
+                                        </div>
+                                    </div>
 
-const POAP = () => {
-  const [expanded, setExpanded] = React.useState('panel1');
 
-  const handleChange = (panel) => (event, newExpanded) => {
-    setExpanded(newExpanded ? panel : false);
-  };
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="container p-2 col-md-5 col-sm-8 col-11">
+                    <div className="row justify-content-center">
+                        <h3>2 - Get the POAP</h3>
+                        <div className="accordion" id="accordionPOAP">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingOne">
+                                    <button className="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOnePOAP">
+                                        2a - Download and install the POAP app
+                                    </button>
+                                </h2>
+                                <div id="collapseOnePOAP" className="accordion-collapse collapse show"
+                                     data-bs-parent="#accordionPOAP">
+                                    <div className="accordion-body">
+                                        <div>Download the POAP app for your mobile device:</div>
+                                        <div className="row my-3">
+                                            <a className='btn btn-lg btn-acc col-5 mx-1' href='https://poap.xyz/ios'
+                                               target="_blank" rel="noopener noreferrer">
+                                                iPhone <FontAwesomeIcon icon={faApple}/>
+                                            </a>
+                                            <a className='btn btn-lg btn-acc col-5 mx-1' href='https://poap.xyz/android'
+                                               target="_blank" rel="noopener noreferrer">
+                                                Android <FontAwesomeIcon icon={faAndroid}/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingTwo">
+                                    <button className="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwoPOAP">
+                                        2b - Connect to the POAP app
+                                    </button>
+                                </h2>
+                                <div id="collapseTwoPOAP" className="accordion-collapse collapse"
+                                     data-bs-parent="#accordionPOAP">
+                                    <div className="accordion-body">
+                                        After downloading and starting the POAP app, paste your earlier copied wallet
+                                        address into the field.
+                                    </div>
+                                    <div className='container pb-3'>
+                                        <Image src={poap1} alt='poap1' priority={true}/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingThree">
+                                    <button className="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThreePOAP">
+                                        2c - Mint (Claim) POAP
+                                    </button>
+                                </h2>
+                                <div id="collapseThreePOAP" className="accordion-collapse collapse"
+                                     data-bs-parent="#accordionPOAP">
+                                    <div className="accordion-body">
+                                        Now you are ready to claim a POAP. Click &quot;Mint&quot; and then &quot;Scan QR&quot; to scan the
+                                        QR code handed out by the team on site or use the &quot;Secret word&quot; if you have
+                                        received one.
+                                    </div>
+                                    <div className='container px-xxl-5 mt-1'>
+                                        <Image src={poap2} alt='poap2' priority={true}/>
+                                    </div>
+                                    <div className='container px-xxl-5 mt-2'>
+                                        <Image src={poap3} alt='poap3' priority={true}/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingFour">
+                                    <button className="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFourPOAP">
+                                        2d - Celebrate!
+                                    </button>
+                                </h2>
+                                <div id="collapseFourPOAP" className="accordion-collapse collapse"
+                                     data-bs-parent="#accordionPOAP">
+                                    <div className="accordion-body">
+                                        Congratulations, you are a part of electric.film!<br/><br/>
+                                        You now own a specific and personal POAP <i>(Which is an NFT - Non-Fungible
+                                        Token)</i> that can only be collected as a reward for participating in a special
+                                        event. <br/><br/>
+                                        Stay tuned, as the electric.film POAPs enable you to vote or access future drops
+                                        and releases.ne.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container container-video text-center p-4 col-xl-4 col-md-6 col-sm-8 col-11">
+                <div className="nav nav-pills row justify-content-center">
+                    <a className='btn btn-lg col-8' href='https://youtu.be/pY17ck2Hx8k' target="_blank"
+                       rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faYoutube} className='px-2'/>Video Guide
+                    </a>
+                </div>
+            </div>
 
-  return (
-    <div>
-      <Container maxWidth="sm">
-        <Menu />
-        <Box sx={{ my: 4 }}>
-          <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-            <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-              <Typography variant='h6'>1. Get POAP mobile app</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                Download the POAP app for your mobile device:
-              </Typography>
-              <Stack spacing={1} direction="row" sx={{ my: 1 }}>
-                <Button href='https://poap.xyz/ios' variant="outlined" target="_blank"
-                  sx={{
-                    borderWidth: 3, borderRadius: 3, textTransform: 'none', "&:hover": {
-                      boxShadow: '0 1px 10px 0 #15f4ee inset, 0 1px 10px 0 #15f4ee, 0 1px 10px 0 #15f4ee inset, 0 1px 10px 0 #15f4ee'
-                    },
-                    width: { xs: '45vw', sm: '25vw', md: '16vw', lg: '13vw', xl: '9vw' }, height: { xs: '7vh', md: '6vh' }
-                  }}>
-                  <Typography>Apple iOS</Typography>
-                  <SvgIcon sx={{ ml: 1, mb: 1 }}>
-                  <path fill="currentColor" d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z" />                  </SvgIcon>
-                </Button>
-                <Button href='https://poap.xyz/android' variant="outlined" target="_blank"
-                  sx={{
-                    borderWidth: 3, borderRadius: 3, textTransform: 'none', "&:hover": {
-                      boxShadow: '0 1px 10px 0 #15f4ee inset, 0 1px 10px 0 #15f4ee, 0 1px 10px 0 #15f4ee inset, 0 1px 10px 0 #15f4ee'
-                    },
-                    width: { xs: '45vw', sm: '25vw', md: '16vw', lg: '13vw', xl: '9vw' }, height: { xs: '7vh', md: '6vh' }
-                  }}>
-                  <Typography>Android</Typography>
-                  <SvgIcon sx={{ ml: 1 }}>
-                  <path fill="currentColor" d="M16.61 15.15C16.15 15.15 15.77 14.78 15.77 14.32S16.15 13.5 16.61 13.5H16.61C17.07 13.5 17.45 13.86 17.45 14.32C17.45 14.78 17.07 15.15 16.61 15.15M7.41 15.15C6.95 15.15 6.57 14.78 6.57 14.32C6.57 13.86 6.95 13.5 7.41 13.5H7.41C7.87 13.5 8.24 13.86 8.24 14.32C8.24 14.78 7.87 15.15 7.41 15.15M16.91 10.14L18.58 7.26C18.67 7.09 18.61 6.88 18.45 6.79C18.28 6.69 18.07 6.75 18 6.92L16.29 9.83C14.95 9.22 13.5 8.9 12 8.91C10.47 8.91 9 9.24 7.73 9.82L6.04 6.91C5.95 6.74 5.74 6.68 5.57 6.78C5.4 6.87 5.35 7.08 5.44 7.25L7.1 10.13C4.25 11.69 2.29 14.58 2 18H22C21.72 14.59 19.77 11.7 16.91 10.14H16.91Z" />                  </SvgIcon>
-                </Button>
-              </Stack>
 
-            </AccordionDetails>
-          </Accordion>
-          <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
-            <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-              <Typography variant='h6'>2. Connect to the POAP app</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                After downloading and starting the POAP app, connect the app to your email address.<br />
-                <i>(Pro-Tip: If you already have an Ethereum crypto wallet, you can use its public address or ENS domain to connect!)</i>
-              </Typography>
-              <Box sx={{ m:2}}>
-                <Image src={mailPic} />
-              </Box>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-            <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-              <Typography variant='h6'>3. Mint (Claim) POAP with secret code</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                Now you are ready to claim <b>your personal POAP</b>. Use the secret word, which was handed out to you by the electric.film team.<br /><br />
-                When connected to the POAP app, click on <i><b>Mint</b></i>, then click <i><b>Secret Word</b></i>, fill it and submit with the <i><b>Mint</b></i> button.
-              </Typography>
-              <Box sx={{ mt: 2, maxWidth: .9 }}>
-                <Image src={mintPic} />
-              </Box>
-              <Box sx={{ mt: 2, maxWidth: .9 }}>
-                <Image src={wordPic} />
-              </Box>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
-            <AccordionSummary aria-controls="panel4d-content" id="panel4d-header">
-              <Typography variant='h6'>4. Celebrate</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                Congratulations, you are a part of electric.film!<br /><br />
-                You now own a specific and personal POAP <i>(Which is an NFT - Non-Fungible Token)</i> that can only be collected as a reward for participating in a special event. <br /><br />
-                Stay tuned, as the electric.film POAPs enable you to vote or access future drops and releases.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-        </Box>
-      </Container>
-    </div>
-  );
+        </div>
+    )
 }
 
-export default POAP;
+export default Poap;
