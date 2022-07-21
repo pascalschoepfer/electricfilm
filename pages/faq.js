@@ -95,7 +95,7 @@ const Faq = () => {
                                 <div id="collapseFiveFAQ" className="accordion-collapse collapse"
                                      data-bs-parent="#accordionFAQ">
                                     <div className="accordion-body">
-                                        Currently, we are still in the concept-phase and are preparing the pre-launch of electric.film. <br/><br/>
+                                        We are still in the concept-phase and are preparing the pre-launch of electric.film. <br/><br/>
                                         Simultaneously, the Electric Child movie is being shot. <br/><br/>
                                         Stay tuned for whats to come! :-)
                                     </div>

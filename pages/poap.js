@@ -167,16 +167,16 @@ const Poap = () => {
                                             and
                                             paper, write it down and store it securely by following the steps in the
                                             app.<br/> <br/>
-                                            If you dont have time or a pen and a paper, click &quot;Remind me later&quot; to get
+                                            If you don&rsquo;t have time or a pen and paper, click &quot;Remind me later&quot; to get
                                             to
-                                            the next step. Never share this with anyone and dont save it anywhere
+                                            the next step. Never share this with anyone and don&rsquo;t save it anywhere
                                             digitally!
                                         </div>
                                         <div className='container px-xxl-5 mt-2'>
                                             <Image src={mm3} alt='mm3' priority={true}/>
                                         </div>
                                         <div className="my-3">
-                                            When you are finished setting up, copy your account address (Starts with
+                                            When you are finished setting up, copy your account address (starts with
                                             0x...)
                                             by tapping on it, you will need this in the next step.
                                         </div>
@@ -274,7 +274,7 @@ const Poap = () => {
                                         Token)</i> that can only be collected as a reward for participating in a special
                                         event. <br/><br/>
                                         Stay tuned, as the electric.film POAPs enable you to vote or access future drops
-                                        and releases.ne.
+                                        and releases.
                                     </div>
                                 </div>
                             </div>
