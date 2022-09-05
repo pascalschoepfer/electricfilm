@@ -4,4 +4,18 @@ const nextConfig = {
   swcMinify: true
 }
 
-module.exports = nextConfig
+module.exports = {
+  async headers() {
+    return [
+      {
+        source: "/fonts/T1Korium-2Kg.woff2",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
+    ];
+  },
+};

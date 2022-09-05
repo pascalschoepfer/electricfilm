@@ -7,7 +7,7 @@ const Nav = () => {
     const navItems = {
         HOME: {
             link: '/',
-            title: 'Home'
+            title: 'ABOUT'
         },
         POAP: {
             link: '/poap',
@@ -28,7 +28,7 @@ const Nav = () => {
             <ul className="nav nav-pills col justify-content-center">
                 {
                     Object.values(navItems).map(item =>
-                        <div className="nav-item col-lg-2 col-3 mx-2" key={item.title}>
+                        <div className="nav-item col-3 mx-2" key={item.title}>
                             <div className={router.pathname === item.link ? "active" : ""}>
                                 <Link href={item.link}>{item.title}</Link>
                             </div>
