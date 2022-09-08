@@ -51,3 +51,8 @@ amplifytools.xcconfig
 .secret-*
 **.sample
 #amplify-do-not-edit-end
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
+/.idea/modules.xml
+/.idea/ef-dev.iml
+/.idea/.gitignore

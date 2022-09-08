@@ -26,7 +26,7 @@ const Poap = () => {
             </div>
             <div className="container d-md-flex">
 
-                <div className="container p-2 col-md-5 col-sm-8 col-11">
+                <div className="container p-md-4 col-md-6 col-sm-8 col-11">
                     <div className="row justify-content-center">
                         <h3 className="korium-title">Install Wallet (MetaMask)</h3>
                         <div className="accordion" id="accordionMM">
@@ -46,7 +46,7 @@ const Poap = () => {
                                             &quot;MetaMask&quot;:
                                         </div>
                                         <div className='my-4 text-center'>
-                                            <a className='btn btn-lg col-9 btn-normal' href='https://metamask.io/download/'
+                                            <a className='btn btn-lg col-9 col-md-7 btn-normal' href='https://metamask.io/download/'
                                                target="_blank" rel="noopener noreferrer">
                                                 MetaMask
                                             </a>
@@ -122,7 +122,7 @@ const Poap = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container p-2 col-md-5 col-sm-8 col-11">
+                <div className="container p-md-4 col-md-6 col-sm-8 col-11">
                     <div className="row justify-content-center">
                         <h3 className="korium-title">Get the POAP</h3>
                         <div className="accordion" id="accordionPOAP">
@@ -138,11 +138,11 @@ const Poap = () => {
                                     <div className="accordion-body">
                                         <div>Download the POAP app for your mobile device:</div>
                                         <div className="row my-3 justify-content-center">
-                                            <a className='btn btn-lg col-9 mb-2 btn-normal' href='https://poap.xyz/ios'
+                                            <a className='btn btn-lg col-9 col-md-7 mb-2 btn-normal' href='https://poap.xyz/ios'
                                                target="_blank" rel="noopener noreferrer">
                                                 iPhone
                                             </a>
-                                            <a className='btn btn-lg col-9 btn-normal' href='https://poap.xyz/android'
+                                            <a className='btn btn-lg col-9 col-md-7 btn-normal' href='https://poap.xyz/android'
                                                target="_blank" rel="noopener noreferrer">
                                                 Android
                                             </a>
