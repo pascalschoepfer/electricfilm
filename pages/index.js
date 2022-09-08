@@ -13,7 +13,7 @@ const Home = () => {
                 <div className='text-center container-title'>
                     <h1 className="mobile-show">electric.</h1>
                     <h1 className="mobile-show">film</h1>
-                    <h1 className="desktop-show">Electric.Film</h1>
+                    <h1 className="desktop-show">electric.film</h1>
                 </div>
                 <div
                     className="container container-bottom-buttons text-center p-md-2 col-xl-4 col-md-6 col-sm-8 col-12">

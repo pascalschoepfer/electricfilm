@@ -117,11 +117,6 @@ a {
   border-color: black;
 }
 
-/*.container-bottom-buttons div > a:hover, .btn-acc:hover, .container-video div > a:hover {
-  box-shadow: 0 1px 5px 0 #6fffff inset, 0 1px 10px 0 #6fffff, 0 1px 5px 0 #6fffff inset, 0 1px 10px 0 #6fffff;
-  border-color: #6fffff;
-}*/
-
 /* Accordions */
 
 .korium-title {
@@ -158,10 +153,6 @@ a {
 .container-video div * {
   color: black;
   text-decoration: none !important;
-}
-
-.container-video div a {
-  border: solid;
 }
 
 /* Responsive stuff */
