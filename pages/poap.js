@@ -1,7 +1,4 @@
 import Nav from "../components/nav.js"
-import {Button} from "@aws-amplify/ui-react";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faAndroid, faApple, faYoutube} from "@fortawesome/free-brands-svg-icons";
 import Image from "next/image";
 import mm1 from '../public/mm1.png';
 import mm2 from '../public/mm2.png';

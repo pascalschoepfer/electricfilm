@@ -1,9 +1,4 @@
 import Nav from "../components/nav.js"
-import Image from "next/image";
-import mm1 from "../public/mm1.png";
-import mm2 from "../public/mm2.png";
-import mm3 from "../public/mm3.png";
-import mm4 from "../public/mm4.png";
 
 const Faq = () => {
 

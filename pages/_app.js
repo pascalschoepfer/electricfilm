@@ -5,8 +5,6 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 import {useEffect} from "react";
 config.autoAddCss = false
 
-
-
 function MyApp({ Component, pageProps }) {
   useEffect(()=>{
     import("bootstrap/dist/js/bootstrap");

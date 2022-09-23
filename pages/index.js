@@ -1,6 +1,4 @@
 import Nav from "../components/nav.js"
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faDiscord, faTwitter} from '@fortawesome/free-brands-svg-icons'
 
 
 const Home = () => {
