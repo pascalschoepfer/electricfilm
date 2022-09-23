@@ -11,7 +11,7 @@ const Ec = () => {
                     <div className="col-xl-2 col-md-3 col-sm-6 col-11 m-0 p-2 container-card" data-bs-toggle="modal"
                          data-bs-target={`#modal${i}`} key={i}>
                         <div className="card">
-                            <Image src={`/aline/aline${i + 10}.jpg`} alt={`Sketch #${i+1}`} priority={true} layout={"fill"}
+                            <Image src={`/aline/alinetn${i + 10}.jpg`} alt={`Sketch #${i+1}`} priority={true} layout={"fill"}
                                    objectFit={"contain"}/>
                         </div>
                         <div className="modal fade" id={`modal${i}`} tabIndex="-1">
@@ -21,7 +21,7 @@ const Ec = () => {
                                         <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                                     </div>
                                     <div className="modal-body">
-                                        <Image src={`/aline/aline${i + 10}.jpg`} alt={`Sketch #${i+1}`} priority={true} layout={"fill"}
+                                        <Image src={`/aline/aline${i + 10}.jpg`} alt={`Sketch #${i+1}`} layout={"fill"}
                                                objectFit={"contain"} className="pb-3"/>
                                     </div>
                                 </div>
