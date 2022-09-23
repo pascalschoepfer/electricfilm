@@ -21,7 +21,7 @@ const Ec = () => {
                                         <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                                     </div>
                                     <div className="modal-body">
-                                        <Image src={`/aline/aline${i + 10}.jpg`} alt='aline01' priority={true} layout={"fill"}
+                                        <Image src={`/aline/aline${i + 10}.jpg`} alt={`Sketch #${i+1}`} priority={true} layout={"fill"}
                                                objectFit={"contain"} className="pb-3"/>
                                     </div>
                                 </div>
