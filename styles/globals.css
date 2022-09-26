@@ -230,5 +230,7 @@ a {
 }
 
 @media (min-width: 1200px) {
-
+  #text-aline {
+    padding: 0 14vw 0 14vw;
+  }
 }

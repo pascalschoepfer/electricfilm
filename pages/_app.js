@@ -6,9 +6,13 @@ import {useEffect} from "react";
 config.autoAddCss = false
 
 function MyApp({ Component, pageProps }) {
-  useEffect(()=>{
+  useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
-  },[])
+  }, []);
+
+  useEffect(() => {
+    typeof document !== undefined ? require('bootstrap/dist/js/bootstrap') : null
+  }, [])
   return <Component {...pageProps} />
 }
 
