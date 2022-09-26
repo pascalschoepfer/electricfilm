@@ -41,7 +41,7 @@ const Ec = () => {
                                     </div>
                                     <div className="modal-body">
                                         <Image src={`/aline/aline${i + 10}.jpg`} alt={`Sketch Aline #${i + 1}`}
-                                               layout={"fill"}
+                                               layout={"fill"} priority={true}
                                                objectFit={"contain"} className="pb-3"/>
                                     </div>
 
